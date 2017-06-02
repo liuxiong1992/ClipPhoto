@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="ClipImageLayout">
-        <attr name="padding" format="dimension"></attr>    <!--  边距  -->
-        <attr name="widthRatio" format="float"></attr>  	<!--  宽度占周长的比例  -->
-        <attr name="heightRatio" format="float"></attr>  	<!--  高度占周长的比例 -->
-        <attr name="borderWidth" format="integer"></attr>  	<!--  线框的线宽 -->
-        <attr name="borderColor" format="color"></attr>  	<!--  线框的颜色 -->
-        <attr name="shadowColor" format="color"></attr>  	<!--  阴影的颜色 -->
+        <attr name="clip_padding" format="dimension"></attr>    <!--  边距  -->
+        <attr name="clip_widthRatio" format="float"></attr>  	<!--  宽度占周长的比例  -->
+        <attr name="clip_heightRatio" format="float"></attr>  	<!--  高度占周长的比例 -->
+        <attr name="clip_borderWidth" format="integer"></attr>  	<!--  线框的线宽 -->
+        <attr name="clip_borderColor" format="color"></attr>  	<!--  线框的颜色 -->
+        <attr name="clip_shadowColor" format="color"></attr>  	<!--  阴影的颜色 -->
     </declare-styleable>
 </resources>
