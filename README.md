@@ -19,7 +19,17 @@
 		}
 
 ### 效果
+比例 27：48
 
+![比例 27：48](http://img.blog.csdn.net/20170602164704642?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGl1X3hpb25n/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+比例 1：1
+
+![比例 1：1](http://img.blog.csdn.net/20170602164815409?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGl1X3hpb25n/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+比例 16：9
+
+![比例 16：9](http://img.blog.csdn.net/20170602164827128?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbGl1X3hpb25n/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 
 
