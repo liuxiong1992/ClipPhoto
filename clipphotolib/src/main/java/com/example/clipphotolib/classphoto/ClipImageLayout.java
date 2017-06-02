@@ -34,16 +34,16 @@ public class ClipImageLayout extends RelativeLayout {
         this.mContext = context;
       //获取边距
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.ClipImageLayout);
-        float padding = typedArray.getDimension(R.styleable.ClipImageLayout_padding, 1);
+        float padding = typedArray.getDimension(R.styleable.ClipImageLayout_clip_padding, 1);
         mHorizontalPadding=(int)padding;
         mVerticalPadding=(int)padding;
         //获取宽高所占比例
-        float widthProportion = typedArray.getFloat(R.styleable.ClipImageLayout_widthRatio, 0);
-        float heightProportion = typedArray.getFloat(R.styleable.ClipImageLayout_heightRatio, 0);
+        float widthProportion = typedArray.getFloat(R.styleable.ClipImageLayout_clip_widthRatio, 0);
+        float heightProportion = typedArray.getFloat(R.styleable.ClipImageLayout_clip_heightRatio, 0);
         
-        int borderWidth = typedArray.getInt(R.styleable.ClipImageLayout_borderWidth, 2);
-        int borderColor = typedArray.getColor(R.styleable.ClipImageLayout_borderColor, Color.parseColor("#ffffff"));
-        int shadowColor = typedArray.getColor(R.styleable.ClipImageLayout_shadowColor, Color.parseColor("#aa000000"));
+        int borderWidth = typedArray.getInt(R.styleable.ClipImageLayout_clip_borderWidth, 2);
+        int borderColor = typedArray.getColor(R.styleable.ClipImageLayout_clip_borderColor, Color.parseColor("#ffffff"));
+        int shadowColor = typedArray.getColor(R.styleable.ClipImageLayout_clip_shadowColor, Color.parseColor("#aa000000"));
         
         mZoomImageView = new ClipZoomImageView(context);
         mClipImageView = new ClipImageBorderView(context);
